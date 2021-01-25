@@ -10,6 +10,8 @@ This repository contains the following files:
 
 ### Steps for using the script
 
+1. Create **DATA** repository and download the following files
+  + [Regional Administration Consumer centers](https://analisis.datosabiertos.jcyl.es/explore/dataset/centros-de-consumo-energetico-de-la-administracion-autonoma-de-castilla-y-leon/export/?disjunctive.organismo_consejeria&disjunctive.centro_gestor&disjunctive.tipo_de_centro_de_consumo)
 1. Put the EREN datasets to **DATA/** directory
 2. Execute this command for installing python requirements: `pip install -r requirements.txt`
 3. Execute this script: `python transformer.py`
