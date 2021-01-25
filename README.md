@@ -3,10 +3,16 @@
 This is a series of scripts for translating categorical values from spanish to english
 This repository contains the following files:
 
+
 1. **DATA/**: In this folder all the source files sould be placed
 2. **requirements.txt**: This file contains all the library requirements for running the translation
 3. **settings.py**: Contains all the value mappings from spanish to english
 4. **transformer.py**: This is the execution script of the EREN dataset translation
+
+### Prerequisites
+
+1. Have Python 3.7 installed
+2. Install python requirements `pip install -r requirements.txt`
 
 ### Steps for using the script
 
