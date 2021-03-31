@@ -1,0 +1,309 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix btcTower: <BTC_TOWER#> .
+@prefix primarySchool10: <PRIMARY_SCHOOL10#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+btcTower:CO2Sensor a brick:CO2_Sensor ;
+    brick:isPointOf btcTower:shop3 .
+
+btcTower:GasSensor a brick:Gas_Sensor ;
+    brick:isPointOf btcTower:shop3 .
+
+btcTower:Ljubljana a brick:Location ;
+    brick:hasPart btcTower:btcTower .
+
+btcTower:billingMeterChillerITRooms2 a brick:Electrical_Meter .
+
+btcTower:billingMeterChillerITrooms1 a brick:Electrical_Meter ;
+    rdf:isPointOf btcTower:chillerITRooms1 .
+
+btcTower:billingMeterChillerITrooms2 rdf:isPointOf btcTower:chillerITRooms1 .
+
+btcTower:billingMeterCongresRoom a brick:Electrical_Meter ;
+    rdf:isPointOf btcTower:congresRoom .
+
+btcTower:billingMeterCoolingOffices a brick:Electrical_Meter ;
+    rdf:isPointOf btcTower:coolingOffices .
+
+btcTower:billingMeterLightInscriptions a brick:Electrical_Meter ;
+    rdf:isPointOf btcTower:lightInscriptions .
+
+btcTower:billingMeterLighting1stFloor a brick:Electrical_Meter ;
+    rdf:isPointOf btcTower:lighting1stFloor .
+
+btcTower:billingMeterLighting2ndFloor a brick:Electrical_Meter ;
+    rdf:isPointOf btcTower:lighting2ndFloor .
+
+<BTC_TOWER#billingMeterOffices10th(east)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices10th(east)> .
+
+<BTC_TOWER#billingMeterOffices10th(west)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices10th(west)> .
+
+<BTC_TOWER#billingMeterOffices11th(east)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices11th(east)> .
+
+<BTC_TOWER#billingMeterOffices11th(west)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices11th(west)> .
+
+btcTower:billingMeterOffices12th a brick:Electrical_Meter ;
+    rdf:isPointOf btcTower:offices12th .
+
+btcTower:billingMeterOffices14th a brick:Electrical_Meter ;
+    rdf:isPointOf btcTower:offices14th .
+
+<BTC_TOWER#billingMeterOffices1st(east)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices1st(east)> .
+
+<BTC_TOWER#billingMeterOffices1st(west)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices1st(west)> .
+
+<BTC_TOWER#billingMeterOffices2nd(east)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices2nd(east)> .
+
+<BTC_TOWER#billingMeterOffices2nd(west)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices2nd(west)> .
+
+<BTC_TOWER#billingMeterOffices3rd(east)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices3rd(east)> .
+
+<BTC_TOWER#billingMeterOffices3rd(west)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices3rd(west)> .
+
+<BTC_TOWER#billingMeterOffices4th(east)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices4th(east)> .
+
+<BTC_TOWER#billingMeterOffices4th(west)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices4th(west)> .
+
+<BTC_TOWER#billingMeterOffices5th(east)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices5th(east)> .
+
+<BTC_TOWER#billingMeterOffices5th(west)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices5th(west)> .
+
+<BTC_TOWER#billingMeterOffices6th(east)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices6th(east)> .
+
+<BTC_TOWER#billingMeterOffices6th(west)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices6th(west)> .
+
+<BTC_TOWER#billingMeterOffices7th(east)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices7th(east)> .
+
+<BTC_TOWER#billingMeterOffices7th(west)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices7th(west)> .
+
+<BTC_TOWER#billingMeterOffices8th(east)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices8th(east)> .
+
+<BTC_TOWER#billingMeterOffices8th(west)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices8th(west)> .
+
+<BTC_TOWER#billingMeterOffices9th(east)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices9th(east)> .
+
+<BTC_TOWER#billingMeterOffices9th(west)> a brick:Electrical_Meter ;
+    rdf:isPointOf <BTC_TOWER#offices9th(west)> .
+
+btcTower:billingMeterOfficesBank a brick:Electrical_Meter .
+
+btcTower:billingMeterOfficesbank rdf:isPointOf btcTower:officesBank .
+
+btcTower:billingMeterRestaurant a brick:Electrical_Meter ;
+    rdf:isPointOf btcTower:restaurant .
+
+btcTower:billingMeterShop1 a brick:Electrical_Meter ;
+    rdf:isPointOf btcTower:shop1 .
+
+btcTower:billingMeterShop2 a brick:Electrical_Meter ;
+    rdf:isPointOf btcTower:shop2 .
+
+btcTower:billingMeterShop3 a brick:Electrical_Meter ;
+    rdf:isPointOf btcTower:shop3 .
+
+btcTower:billingMeterTotal a brick:Electrical_Meter ;
+    brick:isLocatedIn btcTower:btcTower ;
+    brick:isPointOf btcTower:btcTower .
+
+btcTower:btcBaseFloor a brick:Floor ;
+    brick:hasPart btcTower:1stBasement,
+        btcTower:2ndBasement .
+
+btcTower:chillerITrooms-2 a brick:Room .
+
+btcTower:chillerITrooms1 a brick:Room .
+
+btcTower:electricEnergy a brick:Electrical_Meter .
+
+btcTower:energyConsumptionShop1 brick:hasUnit "kWh" .
+
+btcTower:heatMeter a brick:Building_Gas_Meter ;
+    rdf:isPointOf btcTower:btcTower ;
+    brick:hasUnit "kWh" .
+
+btcTower:lighting-2ndFloor a brick:Lightling_Zone .
+
+btcTower:solarPlant a brick:Solar_Panel ;
+    rdf:isPointOf btcTower:btcTower ;
+    brick:hasUnit "kWh" .
+
+btcTower:tempSensor a brick:Temperature_Sensor ;
+    brick:isPointOf btcTower:iceBank .
+
+btcTower:waterMeter a brick:Water_Meter ;
+    rdf:isPointOf btcTower:btcTower ;
+    brick:hasUnit "m3" .
+
+primarySchool10:primarySchool10 a brick:Building .
+
+btcTower:10thFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices10th(east)>,
+        <BTC_TOWER#offices10th(west)> .
+
+btcTower:11thFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices11th(east)>,
+        <BTC_TOWER#offices11th(west)> .
+
+btcTower:12thFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices12th(east)> .
+
+btcTower:13thFloor a brick:Floor ;
+    brick:hasPart btcTower:restaurant .
+
+btcTower:14thFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices14th(west)> .
+
+btcTower:1stBasement a brick:Basement ;
+    brick:hasPart btcTower:lighting1stFloor .
+
+btcTower:1stFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices1st(east)>,
+        <BTC_TOWER#offices1st(west)> .
+
+btcTower:2ndBasement a brick:Basement ;
+    brick:hasPart btcTower:lighting2ndFloor .
+
+btcTower:2ndFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices2nd(east)>,
+        <BTC_TOWER#offices2nd(west)> .
+
+btcTower:3rdFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices3rd(east)>,
+        <BTC_TOWER#offices3rd(west)> .
+
+btcTower:4thFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices4th(east)>,
+        <BTC_TOWER#offices4th(west)> .
+
+btcTower:5thFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices5th(east)>,
+        <BTC_TOWER#offices5th(west)> .
+
+btcTower:6thFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices6th(east)>,
+        <BTC_TOWER#offices6th(west)> .
+
+btcTower:7thFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices7th(east)>,
+        <BTC_TOWER#offices7th(west)> .
+
+btcTower:8thFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices8th(east)>,
+        <BTC_TOWER#offices8th(west)> .
+
+btcTower:9thFloor a brick:Floor ;
+    brick:hasPart <BTC_TOWER#offices9th(east)>,
+        <BTC_TOWER#offices9th(west)> .
+
+btcTower:coolingOffices a brick:Room .
+
+btcTower:groundFloor a brick:Floor ;
+    brick:hasPart btcTower:congresRoom,
+        btcTower:officesBank,
+        btcTower:shop1,
+        btcTower:shop2,
+        btcTower:shop3 .
+
+btcTower:iceBank a brick:Room ;
+    rdf:isPartOf btcTower:btcTower .
+
+btcTower:offices12th a brick:Space .
+
+btcTower:offices14th a brick:Space .
+
+btcTower:congresRoom a brick:Room .
+
+btcTower:lighting1stFloor a brick:Lightling_Zone .
+
+<BTC_TOWER#offices10th(east)> a brick:Space .
+
+<BTC_TOWER#offices10th(west)> a brick:Space .
+
+<BTC_TOWER#offices11th(east)> a brick:Space .
+
+<BTC_TOWER#offices11th(west)> a brick:Space .
+
+<BTC_TOWER#offices1st(east)> a brick:Space .
+
+<BTC_TOWER#offices1st(west)> a brick:Space .
+
+<BTC_TOWER#offices2nd(east)> a brick:Space .
+
+<BTC_TOWER#offices2nd(west)> a brick:Space .
+
+<BTC_TOWER#offices3rd(east)> a brick:Space .
+
+<BTC_TOWER#offices3rd(west)> a brick:Space .
+
+<BTC_TOWER#offices4th(east)> a brick:Space .
+
+<BTC_TOWER#offices4th(west)> a brick:Space .
+
+<BTC_TOWER#offices5th(east)> a brick:Space .
+
+<BTC_TOWER#offices5th(west)> a brick:Space .
+
+<BTC_TOWER#offices6th(east)> a brick:Space .
+
+<BTC_TOWER#offices6th(west)> a brick:Space .
+
+<BTC_TOWER#offices7th(east)> a brick:Space .
+
+<BTC_TOWER#offices7th(west)> a brick:Space .
+
+<BTC_TOWER#offices8th(east)> a brick:Space .
+
+<BTC_TOWER#offices8th(west)> a brick:Space .
+
+<BTC_TOWER#offices9th(east)> a brick:Space .
+
+<BTC_TOWER#offices9th(west)> a brick:Space .
+
+btcTower:officesBank a brick:Room .
+
+btcTower:restaurant a brick:Room .
+
+btcTower:shop1 a brick:Room .
+
+btcTower:shop2 a brick:Room .
+
+btcTower:shop3 a brick:Room .
+
+btcTower:btcTower a brick:Building ;
+    brick:hasPart btcTower:10thFloor,
+        btcTower:11thFloor,
+        btcTower:12thFloor,
+        btcTower:13thFloor,
+        btcTower:14thFloor,
+        btcTower:1stFloor,
+        btcTower:2ndFloor,
+        btcTower:3rdFloor,
+        btcTower:4thFloor,
+        btcTower:5thFloor,
+        btcTower:6thFloor,
+        btcTower:7thFloor,
+        btcTower:8thFloor,
+        btcTower:9thFloor,
+        btcTower:groundFloor .
+
